@@ -7,5 +7,4 @@ TERM
 USER
 LC_COLLATE
 PATH
-QWEKF
-wefowoke
+

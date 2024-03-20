@@ -16,7 +16,7 @@ void makeFork(char *path, char **argv, char **envp) {
 			exit(1);
 		}
 
-	wait(child);
+	wait(NULL);
 }
 
 void sort(char **arr) {

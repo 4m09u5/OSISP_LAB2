@@ -16,12 +16,19 @@ int main(int argc, char **argv, char **envp) {
 
     FILE *file = fopen(argv[1], "r");
 
+    if(!file) {
+        printf("File not found\n");
+    }
+
     while(!feof(file)) {
         char key[100];
-        if(!fgets(key, 100, file))
-            break;
+        
+        fgets(key, 100, file);
 
         key[strlen(key) - 1] = 0;
+
+        if(strlen(key) == 0)
+            break;
 
         char *value;
 
