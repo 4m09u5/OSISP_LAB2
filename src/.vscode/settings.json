@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "termios.h": "c",
-        "stdio.h": "c",
-        "locale.h": "c",
-        "unistd.h": "c",
-        "string.h": "c"
-    }
-}
